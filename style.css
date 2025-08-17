@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(180deg, #aafee4 0%, #7fffd4 100%);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 10px auto;
+  max-width: 150px;
+  height: auto;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00695c;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+textarea {
+  resize: none;
+  height: 60px;
+}
+
+.servico {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.servico input, .servico select {
+  flex: 1;
+}
+
+button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f57c00;
+}
+
+ul {
+  padding-left: 20px;
+}
